@@ -13,7 +13,7 @@
   --color-bg-card-hover: #1c1c1c;
 
   /* Gold / Saffron Accents */
-  --color-gold: #c9a641;
+  --color-gold: #d3af37;
   --color-gold-light: #dbb955;
   --color-gold-dark: #a88a30;
   --color-saffron: #d4742c;
@@ -25,11 +25,11 @@
   --color-text-muted: #5a564f;
 
   /* Borders & Dividers */
-  --color-border: rgba(201, 166, 65, 0.15);
-  --color-border-hover: rgba(201, 166, 65, 0.35);
+  --color-border: rgba(211, 175, 55, 0.15);
+  --color-border-hover: rgba(211, 175, 55, 0.35);
 
   /* Gradients */
-  --gradient-gold: linear-gradient(135deg, #c9a641, #dbb955, #a88a30);
+  --gradient-gold: linear-gradient(135deg, #d3af37, #dbb955, #a88a30);
   --gradient-dark: linear-gradient(180deg, #0a0a0a 0%, #111111 100%);
   --gradient-hero-overlay: linear-gradient(
     180deg,
@@ -71,8 +71,8 @@
 
   /* Shadows */
   --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
-  --shadow-glow: 0 0 30px rgba(201, 166, 65, 0.15);
-  --shadow-glow-strong: 0 0 60px rgba(201, 166, 65, 0.25);
+  --shadow-glow: 0 0 30px rgba(211, 175, 55, 0.15);
+  --shadow-glow-strong: 0 0 60px rgba(211, 175, 55, 0.25);
 }
 
 /* ──────────── Reset & Base ──────────── */
@@ -252,7 +252,7 @@ input, textarea, select {
 }
 
 .btn-outline:hover {
-  background: rgba(201, 166, 65, 0.1);
+  background: rgba(211, 175, 55, 0.1);
   transform: translateY(-2px);
   box-shadow: var(--shadow-glow);
 }
@@ -413,7 +413,7 @@ input, textarea, select {
 }
 
 .nav-cta:hover {
-  background: rgba(201, 166, 65, 0.1) !important;
+  background: rgba(211, 175, 55, 0.1) !important;
 }
 
 .nav-cta::after {
@@ -490,8 +490,8 @@ input, textarea, select {
   inset: 0;
   z-index: 2;
   background-image: 
-    radial-gradient(circle at 20% 50%, rgba(201, 166, 65, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(201, 166, 65, 0.02) 0%, transparent 40%);
+    radial-gradient(circle at 20% 50%, rgba(211, 175, 55, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(211, 175, 55, 0.02) 0%, transparent 40%);
   pointer-events: none;
 }
 
@@ -514,7 +514,7 @@ input, textarea, select {
   text-transform: uppercase;
   color: var(--color-gold);
   padding: 8px 20px;
-  border: 1px solid rgba(201, 166, 65, 0.3);
+  border: 1px solid rgba(211, 175, 55, 0.3);
   margin-bottom: var(--space-lg);
   opacity: 0;
   animation: fadeInDown 0.8s ease 0.3s forwards;
@@ -733,7 +733,7 @@ input, textarea, select {
 
 .value-item:hover {
   border-color: var(--color-border-hover);
-  background: rgba(201, 166, 65, 0.03);
+  background: rgba(211, 175, 55, 0.03);
   transform: translateY(-2px);
 }
 
@@ -862,7 +862,7 @@ input, textarea, select {
 .program-number {
   font-family: var(--font-display);
   font-size: 3rem;
-  color: rgba(201, 166, 65, 0.1);
+  color: rgba(211, 175, 55, 0.1);
   line-height: 1;
   margin-bottom: var(--space-sm);
 }
@@ -1350,7 +1350,7 @@ input, textarea, select {
   max-width: 85vw;
   max-height: 85vh;
   object-fit: contain;
-  border: 1px solid rgba(201, 166, 65, 0.2);
+  border: 1px solid rgba(211, 175, 55, 0.2);
   animation: scaleIn 0.3s ease;
 }
 
@@ -1435,8 +1435,8 @@ input, textarea, select {
 
 .form-input:focus {
   border-color: var(--color-gold);
-  background: rgba(201, 166, 65, 0.03);
-  box-shadow: 0 0 0 3px rgba(201, 166, 65, 0.05);
+  background: rgba(211, 175, 55, 0.03);
+  box-shadow: 0 0 0 3px rgba(211, 175, 55, 0.05);
 }
 
 .form-input:focus + .form-label,
@@ -1559,7 +1559,7 @@ select.form-input option {
   z-index: 10000;
   background: rgba(20, 20, 20, 0.95);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(201, 166, 65, 0.3);
+  border: 1px solid rgba(211, 175, 55, 0.3);
   color: #f0ece4;
   padding: 18px 28px;
   font-family: 'Inter', sans-serif;
@@ -1666,7 +1666,7 @@ select.form-input option {
 .social-link:hover {
   border-color: var(--color-gold);
   color: var(--color-gold);
-  background: rgba(201, 166, 65, 0.05);
+  background: rgba(211, 175, 55, 0.05);
   transform: translateY(-2px);
 }
 
@@ -1730,7 +1730,7 @@ select.form-input option {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(201, 166, 65, 0.04) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(211, 175, 55, 0.04) 0%, transparent 70%);
   pointer-events: none;
   z-index: 0;
   transform: translate(-50%, -50%);
@@ -1842,7 +1842,7 @@ select.form-input option {
     opacity: 0.9;
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid rgba(201, 166, 65, 0.06);
+    border-bottom: 1px solid rgba(211, 175, 55, 0.06);
   }
 
   .nav-links a:last-child {
@@ -2441,12 +2441,12 @@ select.form-input option {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(201, 166, 65, 0.3);
+  background: rgba(211, 175, 55, 0.3);
 }
 
 /* ──────────── Selection ──────────── */
 ::selection {
-  background: rgba(201, 166, 65, 0.3);
+  background: rgba(211, 175, 55, 0.3);
   color: var(--color-text-primary);
 }
 

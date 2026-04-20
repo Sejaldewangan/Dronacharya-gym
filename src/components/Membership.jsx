@@ -72,7 +72,7 @@ function PricingCard({ plan, index }) {
     const rect = card.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-    card.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(201, 166, 65, 0.05) 0%, transparent 50%), linear-gradient(145deg, #141414, #1a1a1a)`;
+    card.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(211, 175, 55, 0.05) 0%, transparent 50%), linear-gradient(145deg, #141414, #1a1a1a)`;
   }, []);
 
   const handleMouseLeave = useCallback(() => {

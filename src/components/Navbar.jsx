@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 
 const LogoSVG = () => (
   <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M22 2L28 10L38 8L34 18L42 24L34 30L38 40L28 38L22 46L16 38L6 40L10 30L2 24L10 18L6 8L16 10L22 2Z" fill="none" stroke="#c9a641" strokeWidth="1.5" strokeLinejoin="round"/>
-    <circle cx="22" cy="24" r="8" fill="none" stroke="#c9a641" strokeWidth="1.5"/>
-    <circle cx="22" cy="24" r="3" fill="#c9a641"/>
+    <path d="M22 2L28 10L38 8L34 18L42 24L34 30L38 40L28 38L22 46L16 38L6 40L10 30L2 24L10 18L6 8L16 10L22 2Z" fill="none" stroke="#d3af37" strokeWidth="1.5" strokeLinejoin="round"/>
+    <circle cx="22" cy="24" r="8" fill="none" stroke="#d3af37" strokeWidth="1.5"/>
+    <circle cx="22" cy="24" r="3" fill="#d3af37"/>
   </svg>
 );
 
